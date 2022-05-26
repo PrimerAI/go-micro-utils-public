@@ -1,0 +1,13 @@
+# Docs: https://yamllint.readthedocs.io/en/stable/configuration.html
+extends: default
+
+# Helm charts aren't valid Yaml until they're rendered
+ignore: |
+  charts
+
+rules:
+  document-end: disable
+  document-start: disable
+  line-length:
+    max: 200
+  truthy: disable
