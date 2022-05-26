@@ -8,7 +8,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/PrimerAI/go-micro-utils/gmu/s3"
+	"github.com/PrimerAI/go-micro-utils-public/gmu/s3"
 )
 
 func main() {
